@@ -1,0 +1,58 @@
+.container2 {
+    margin-top: 2vh;
+    background-color: rgb(173, 115, 28, 0.5);
+}
+
+.titleContainer2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainContainer2 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgFeature1,
+.imgFeature2,
+.imgFeature3 {
+    width: 100px;
+}
+
+.logoAlone {
+    width: 60px;
+}
+
+.middleFeature {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    min-height: 57vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature1, 
+.feature2,
+.feature3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.feature1 {
+    margin-top: -10vh;
+}
+
+.textMainContainer2 {
+
+}

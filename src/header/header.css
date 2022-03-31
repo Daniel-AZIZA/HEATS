@@ -1,0 +1,255 @@
+.mainLogo {
+  margin-top: 1vh;
+  margin-left: 3vw;
+  text-align: center;
+  width: 26vw;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-solid,
+  .fa-bars {
+    margin-top: 1vh;
+    margin-right: 2vw;
+    font-size: 2.3rem;
+  }
+
+@media only screen and (min-width: 580px) {
+  .mainLogo {
+    margin-top: 1vh;
+    text-align: center;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .fa-bars {
+    font-size: 2rem;
+  }
+
+  .fa-xmark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+          top: 10px;
+          left: 15px;
+          right: 0;
+    font-size: 200%;
+    z-index: 1;
+    animation: slideIn 1s;
+  }
+
+  .sideBar {
+    margin: 0;
+    padding: 0;
+    
+    gap: 1rem;
+    
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+
+    /* background-image: url(../image/fond\ menu.pdf);
+    background-size: cover;
+    background-position: center center; */
+
+    list-style: none;
+    text-align: center;
+    background-color : white;
+    color: white;
+    animation: slideIn 1s; 
+    z-index: 0;
+  }
+  
+  .featureSB {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@keyframes slideIn {
+  from{
+    transform: translateX(200px);
+  } 
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .header {
+    padding: 0 2vw;
+  }
+
+  .mainLogo {
+    margin-left: 3vw;
+    padding-left: 0.5vw;
+    text-align: center;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navBar {
+    padding: 0;
+    padding-right: 5.5vw;
+    margin-top: 3vh;
+
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .featureNB {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .navBar {
+    padding-right: 5vw;
+  }
+}
+
+
+
+
+
+/* .mainLogo {
+  margin-top: 1vh;
+  margin-left: 1vh;
+  text-align: center;
+  width: 30vw;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes slideIn {
+  from{
+    transform: translateX(200px);
+  } 
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .mainLogo {
+    margin-top: 1vh;
+    text-align: center;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .fa-solid,
+  .fa-bars {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fa-bars {
+    font-size: 2rem;
+  }
+
+  .fa-xmark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+          top: 10px;
+          left: 15px;
+          right: 0;
+    font-size: 200%;
+    z-index: 1;
+    animation: slideIn 1s;
+  }
+
+  .sideBar {
+    margin: 0;
+    padding: 0;
+    
+    gap: 1rem;
+    
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+
+    /* background-image: url(../image/fond\ menu.pdf);
+    background-size: cover;
+    background-position: center center; */
+/*
+    list-style: none;
+    text-align: center;
+    background-color : white;
+    color: white;
+    animation: slideIn 1s; 
+    z-index: 0;
+  }
+  
+  .featureSB {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 1100px) { 
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .mainLogo {
+    margin-right: 5vw;
+  }
+
+  .navBar {
+    padding: 0;
+    margin: 0;
+    margin-top: 3vh;
+    display: flex;
+    list-style: none;
+  }
+
+  .featureNB {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+  }
+} */
