@@ -1,0 +1,208 @@
+
+.container3 {
+    position: relative;
+    margin: 0;
+    padding: 2.4vh 3vw;
+    background-color: #DBE3E8;
+    color: #43434A;
+}
+
+.iphone_heats {
+    margin-top: 42%;
+    padding-right: 5vw;
+    float: right;
+    width: 26vw;
+    height: auto;
+}
+
+.container3 > 
+p, 
+h3,
+.h2HeaderContainer3,
+.PfooterMain {
+    margin: 0;
+    padding: 0;
+}
+
+.h2HeaderContainer3 {
+    font-size: 1rem;
+}
+
+.h3Container3 {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.h2HeaderMainContainer3 {
+    margin-top: 6vh;
+    font-size: 1.3rem;
+}
+
+.PMainContainer3 {
+    position: absolute;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 2.2vh;
+}
+
+.buttonMainContainer3 {
+    padding: 2vh 2vw;
+    margin-top: 13vh;
+    margin-left: 15vw;
+    border-radius: 30px / 50px;
+    position: absolute;
+
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(196, 210, 218);
+    text-decoration: none;
+}
+
+.footer {
+
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+}
+
+.fa-brands,
+.fa-facebook-square,
+.fa-instagram {
+    color: black;
+    font-size: 0.7rem;
+}
+
+.fa-facebook-square {
+    margin: 0 2.5px;
+}
+
+.PfooterMain {
+    font-size: 0.7rem;
+}
+
+@media only screen and (min-width: 429px) {
+    .blockContainer3 {
+        margin: 0 auto;
+        margin-top: 3vh;
+    }
+
+    .iphone_heats {
+        margin-top: 155px;
+        padding-right: 16%;
+        float: right;
+        width: 150px;
+        height: auto;
+    }
+} 
+
+@media only screen and (min-width: 590px) {
+    .blockContainer3 {
+        max-width: 600px;
+    }
+    
+    .iphone_heats {
+        margin-top: 70px;
+        padding-right: 16%;
+        float: right;
+        width: 200px;
+        height: auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 1070px) {
+    .container3 {
+        margin: 0 auto;
+    }
+
+    .blockContainer3 {
+        margin: 0 auto;
+        margin-top: 3vh;
+        max-width: 850px;
+    }
+
+    .iphone_heats {
+        margin-top: 50px;
+        padding-right: 16%;
+        float: right;
+        width: 300px;
+        height: auto;
+
+    }
+
+    .h2HeaderMainContainer3 {
+        font-size: 2.2rem;
+    }
+
+    .PMainContainer3 {
+        font-size: 1rem;
+    }
+
+    .buttonMainContainer3 {
+        font-size: 1rem;
+    }
+
+
+    .fa-brands,
+    .fa-facebook-square,
+    .fa-instagram,
+    .PfooterMain {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+/*
+@media only screen and (min-width: 429px) {
+    .iphone_heats {
+        margin-top: 160px;
+        padding-right: 10%;
+        float: right;
+        width: 26vw;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    .container3 {
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .iphone_heats {
+        margin-top: 20%;
+        padding-right: 10%;
+        float: right;
+        width: 26vw;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 650px) { 
+    .iphone_heats {
+        margin-top: 10%;
+        padding-right: 10%;
+        float: right;
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 930px) { 
+    .iphone_heats {
+        margin-top: 50px;
+        padding-right: 10%;
+        float: right;
+        width: 250px;
+        height: auto;
+    }
+}
+*/

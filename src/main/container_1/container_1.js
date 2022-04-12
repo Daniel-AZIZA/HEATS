@@ -45,7 +45,7 @@ function Container1 () {
     <div className="container1">
     <div className="hr_top"/>
       <div className="headerB1">
-        <h1 className="titleB1">Le service de livraison sur les pistes</h1>
+        <h1 className="titleB1">LE SERVICE DE LIVRAISON SUR LES PISTES</h1>
         <p className="descriptionB1">Grâce au <span className="spanDescriptionB1">système de consigne</span> nous visons à améliorer les
             pauses <span className="spanDescriptionB1">déjeuner des professionnel</span> et offrir un service
             supplémentaire à <span className="spanDescriptionB1">la clientèle de montagne</span>.
@@ -58,21 +58,3 @@ function Container1 () {
 }
 
 export default Container1;
-
-    {/* <ul className="mainB1">
-            <li className="featureMainB1a">
-              <p className="B1a">100%</p>
-              <p className="B2a">LOCAL</p>
-              <p className="B3a">Nos produits sont locaux et de saisons</p>
-            </li>
-            <li className="featureMainB1b">
-              <p className="B1b">100%</p>
-              <p className="B2b">DE PLAISIR</p>
-              <p className="B3b">Nos contenants vous garantissent des plats chauds et frais</p>
-            </li>
-            <li className="featureMainB1c">
-              <p className="B1c">0%</p>
-              <p className="B2c">DE DÉCHETS</p>
-              <p className="B3c">Grâce à notre système de consigne</p>
-            </li>
-        </ul> */}

@@ -3,21 +3,25 @@ import {DisplayImage} from '../tools/display.js'
 import {DisplayIcon} from '../tools/display.js'
 import mainLogo from '../image/logo_V2.png';
 
-function NavBar (props) {
-  const {ulClassName, liClassName, link, array, isSideBar, features} = props;
 
+
+function NavBar (props) {
+  const {ulClassName, liClassName, linkFeatures, isSideBar, features} = props;
+  const [isDisplay, setDisplay] = [...props.array];
   return (
     <nav>
-      {isSideBar && <DisplayIcon IclassName="fa-solid fa-xmark" array={array}/>}
+      {isSideBar && <DisplayIcon IclassName="fa-solid fa-xmark" array={props.array}/>}
       <ul className={ulClassName}>
-        {features.map((feature, index) => <li key={index}><a href={link} className={liClassName}>{feature}</a></li>)}
+        {features.map((feature, index) =>
+        <li key={index}><a href={linkFeatures[index]}className={liClassName} onClick={(props) => setDisplay(!isDisplay)}>{feature}</a></li>)}
       </ul>
     </nav>
   )
 }
 
-export default function Header () {
+function Header () {
   const features = ["Nos engagements", "Nous contacter"];
+  const linkFeatures = ["#Container2", "mailto:Heats.contact@gmail.com"];
   const [isDisplay, setDisplay] = React.useState(false);
   const mqLarge = window.matchMedia('(min-width : 1100px)');
 
@@ -25,8 +29,10 @@ export default function Header () {
     <header className="header">
       <DisplayImage src={mainLogo} alt="mainLogo" class="mainLogo"/>
       {!mqLarge.matches && <DisplayIcon IclassName="fa-solid fa-bars" array={[isDisplay, setDisplay]}/>}
-      {isDisplay && <NavBar ulClassName="sideBar" liClassName="featureSB" link="#" array={[isDisplay, setDisplay]} isSideBar={true} features={features}/>}
-      {mqLarge.matches && <NavBar ulClassName="navBar" liClassName="featureNB" link="#" isSideBar={false} features={features}/>}
+      {isDisplay && <NavBar ulClassName="sideBar" liClassName="featureSB" linkFeatures={linkFeatures} array={[isDisplay, setDisplay]} isSideBar={true} features={features}/>}
+      {mqLarge.matches && <NavBar ulClassName="navBar" liClassName="featureNB" linkFeatures={linkFeatures} array={[isDisplay, setDisplay]} isSideBar={false} features={features}/>}
     </header>
   )
 }
+
+export default Header;

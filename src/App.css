@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 html {
     box-sizing: border-box;
@@ -23,16 +23,21 @@ body {
     background-image: url(./image/fond.png);
     background-size: cover;
     background-attachment: scroll;
-
 }
-
-/* .container {
-  margin-left: 2vw;
-  margin-right: 2vw;
-} */
 
 .main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
+
+@media screen and (max-width: 640px) { 
+    .tlp-portfolio .layout1 .tlp-overlay .link-icon a {cursor: pointer; background:rgba(0,0,0,0.5);}
+    .tlp-portfolio .layout1 .tlp-portfolio-item .tlp-overlay {
+        background-color: rgba(0,0,0,.1);}
+    .tlp-portfolio .layout1 .tlp-portfolio-thum .tlp-overlay, 
+    .tlp-portfolio .layout1 .tlp-portfolio-thum .link-icon {
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        opacity: 1;}
+    }
