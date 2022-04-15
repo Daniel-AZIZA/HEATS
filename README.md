@@ -72,3 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 <img src="/Users/daniel/Desktop/maquette/maquette_HEATS.pdf" alt="maquette"/>
+
+
+
+[maquette_HEATS.pdf](https://github.com/Daniel-AZIZA/HEATS/files/8497177/maquette_HEATS.pdf)
+
+
+
+
+
