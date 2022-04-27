@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9fd8490.css",
+    "main.js": "/static/js/main.a2110795.js",
+    "static/js/787.6d185335.chunk.js": "/static/js/787.6d185335.chunk.js",
+    "static/media/fond.png": "/static/media/fond.0f47ee724e19750bd844.png",
+    "static/media/fond menu.png": "/static/media/fond menu.5c643338bc12566dedfb.png",
+    "static/media/photo_2.jpg": "/static/media/photo_2.84e47a3195603df60482.jpg",
+    "static/media/photo_1.jpg": "/static/media/photo_1.2131b20fe3829bb86a53.jpg",
+    "static/media/photo_3.jpg": "/static/media/photo_3.2bc7c4d75498b3d58f57.jpg",
+    "static/media/logo_V2.png": "/static/media/logo_V2.c7e61cffd16d813a59ff.png",
+    "static/media/iphone_Heats.png": "/static/media/iphone_Heats.85f91aa5ec91d10c7c55.png",
+    "static/media/logo_heats_seul.png": "/static/media/logo_heats_seul.18e0e5020afb7f0282b4.png",
+    "index.html": "/index.html",
+    "main.e9fd8490.css.map": "/static/css/main.e9fd8490.css.map",
+    "main.a2110795.js.map": "/static/js/main.a2110795.js.map",
+    "787.6d185335.chunk.js.map": "/static/js/787.6d185335.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9fd8490.css",
+    "static/js/main.a2110795.js"
+  ]
+}

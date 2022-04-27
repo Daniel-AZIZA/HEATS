@@ -20,10 +20,10 @@ function Container3 () {
                 Pour en savoir plus contactez nous !</p>
             <a href="mailto:Heats.contact@gmail.com" className="buttonMainContainer3">Contactez-nous</a>
             <footer className="footer">
-                <a href="https://www.instagram.com/heats_fr/" target="_blank">
+                <a href="https://www.instagram.com/heats_fr/" target="_blank" rel="noreferrer">
                     <DisplayIcon IclassName="fa-brands fa-instagram" array={[]}/>
                 </a>
-                <a href="https://www.facebook.com/Heats.fr/" target="_blank">
+                <a href="https://www.facebook.com/Heats.fr/" target="_blank" rel="noreferrer">
                     <DisplayIcon IclassName="fa-brands fa-facebook-square" array={[]}/>
                 </a>
                 <p className="PfooterMain">@Heats_fr</p>
