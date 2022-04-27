@@ -59,6 +59,10 @@ h3,
     text-decoration: none;
 }
 
+.buttonMainContainer3:hover {
+    transform:scale(1.05);
+}
+
 .footer {
 
     margin-top: 30vh;
@@ -154,55 +158,3 @@ h3,
         font-size: 0.9rem;
     }
 }
-
-
-
-
-/*
-@media only screen and (min-width: 429px) {
-    .iphone_heats {
-        margin-top: 160px;
-        padding-right: 10%;
-        float: right;
-        width: 26vw;
-        height: auto;
-    }
-}
-
-
-@media only screen and (min-width: 500px) {
-    .container3 {
-        padding-left: 10%;
-    }
-}
-
-@media only screen and (min-width: 650px) {
-    .iphone_heats {
-        margin-top: 20%;
-        padding-right: 10%;
-        float: right;
-        width: 26vw;
-        height: auto;
-    }
-}
-
-@media only screen and (min-width: 650px) { 
-    .iphone_heats {
-        margin-top: 10%;
-        padding-right: 10%;
-        float: right;
-        width: 200px;
-        height: auto;
-    }
-}
-
-@media only screen and (min-width: 930px) { 
-    .iphone_heats {
-        margin-top: 50px;
-        padding-right: 10%;
-        float: right;
-        width: 250px;
-        height: auto;
-    }
-}
-*/

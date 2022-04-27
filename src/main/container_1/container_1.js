@@ -23,7 +23,7 @@ function Container1 () {
             id: 0,
             B1a: "100%",
             B2a: "LOCAL",
-            B3a: "Nos produits sont locaux et de saisons"
+            B3a: "Nos produits sont locaux et de saison"
         },
         featureMainB1b: 
         {
@@ -46,10 +46,14 @@ function Container1 () {
     <div className="hr_top"/>
       <div className="headerB1">
         <h1 className="titleB1">LE SERVICE DE LIVRAISON SUR LES PISTES</h1>
-        <p className="descriptionB1">Grâce au <span className="spanDescriptionB1">système de consigne</span> nous visons à améliorer les
+        <p className="descriptionB1">Nous améliorons <span className="spanDescriptionB1">les pauses-déjeuner des professionnels</span> et offrons un
+            service supplémentaire <span className="spanDescriptionB1">à la clientèle de montagne</span>. Notre
+            système de consigne vous permet une <span className="spanDescriptionB1">expérience zéro déchet</span>.
+        </p>
+        {/* <p className="descriptionB1">Grâce au <span className="spanDescriptionB1">système de consigne</span> nous visons à améliorer les
             pauses <span className="spanDescriptionB1">déjeuner des professionnel</span> et offrir un service
             supplémentaire à <span className="spanDescriptionB1">la clientèle de montagne</span>.
-        </p>
+        </p> */}
     </div>
     <MainB1 ulClassName="mainB1" features={features}/>
     <div className="hr_bottom"/>

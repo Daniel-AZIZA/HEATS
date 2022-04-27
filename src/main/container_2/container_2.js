@@ -19,7 +19,7 @@ function Container2Mini () {
             <li className="feature1">
               <DisplayImage src={photo_1} alt="a" class="imgFeature1"/>
               <p className="textMainContainer2a">
-                C'est la Start Up qui vous permet de vous faire livrer des <span className="SpanContainer2">plats chauds et frais</span> directement sur les pistes !
+                C'est la Start Up qui vous livre des <span className="SpanContainer2">plats chauds et frais</span> directement sur les pistes !
               </p>
             </li>
             <ul className="middleFeature">
@@ -33,7 +33,7 @@ function Container2Mini () {
             <li className="feature3">
               <DisplayImage src={photo_3} alt="a" class="imgFeature3"/>
               <p className="textMainContainer2c">
-                  Nos contenants vous garantissent la qualité de vos commmandes ainsi que l'expérience <span className="SpanContainer2">zéro déchets</span>
+                  Nos contenants vous garantissent la qualité de vos commmandes ainsi que l'expérience <span className="SpanContainer2">zéro déchet</span>
               </p>
             </li>
         </ul>
@@ -51,7 +51,7 @@ function Container2Full () {
             <li className="feature1">
               <DisplayImage src={photo_1} alt="a" class="imgFeature1"/>
               <p className="textMainContainer2a">
-                C'est la Start Up qui vous permet de vous faire livrer des <span className="SpanContainer2">plats chauds et frais</span> directement sur les pistes !
+                C'est la Start Up qui vous livre des <span className="SpanContainer2">plats chauds et frais</span> directement sur les pistes !
               </p>
             </li>
             <ul className="middleFeature">
@@ -66,7 +66,7 @@ function Container2Full () {
             <li className="feature3">
               <DisplayImage src={photo_3} alt="a" class="imgFeature3"/>
               <p className="textMainContainer2c">
-                  Nos contenants vous garantissent la qualité de vos commmandes ainsi que l'expérience <span className="SpanContainer2">zéro déchets</span>
+                  Nos contenants vous garantissent la qualité de vos commmandes ainsi que l'expérience <span className="SpanContainer2">zéro déchet</span>
               </p>
             </li>
         </ul> 

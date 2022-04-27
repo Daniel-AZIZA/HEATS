@@ -4,147 +4,146 @@
     margin-top: 1vh;
   }
   
-  .hr_top {
-    margin: 0 auto;
-    width: 90vw;
-    border: 1px solid black;
-  } 
-  
-  .hr_bottom {
-    margin: 3vh auto 0;
-    width: 90vw;
-    border: 1px solid black;
-  } 
-  
+.hr_top {
+  margin: 0 auto;
+  width: 90vw;
+  border: 1px solid black;
+}
+
+.hr_bottom {
+  margin: 3vh auto 0;
+  width: 90vw;
+  border: 1px solid black;
+} 
+
+.titleB1 {
+  margin: 4vh auto 0 auto;
+  width: 75vw;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.descriptionB1 {
+  margin: 4vh auto 0 auto;
+  width: 20em;
+  text-align: center;
+  line-height: 3vh;
+}
+
+.spanDescriptionB1 {
+  font-weight: 700;
+  color: #AE731B;
+}
+
+.mainB1 {
+  padding: 0;
+  margin: 4vh auto;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.8rem;
+}
+
+.featureMainB1a, 
+.featureMainB1b, 
+.featureMainB1c {
+  padding: 0;
+  margin: 0;
+  width: 7rem;
+
+  border-radius: 15%;
+  background-color: rgb(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.featureMainB1b{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 7rem;
+  border-radius: 15%;
+}
+
+.featureMainB1a:hover,
+.featureMainB1b:hover, 
+.featureMainB1c:hover {
+  transform:scale(1.10);
+}
+
+.B1a,
+.B1b,
+.B1c {
+  padding: 0;
+  padding-top: 1vh;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.B2a,
+.B2b,
+.B2c{
+  padding: 0;
+  margin: 0;
+  color: #AE731B;  
+}
+
+/********* B3 *********/
+
+.B3a,
+.B3b,
+.B3c {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: black;
+  background-color: #DBE3E8;
+}
+
+.B3a,
+.B3c {
+  padding: 0.6rem;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 30px / 50px;
+}
+
+.B3b {
+  padding: 0.4rem;
+  padding-bottom: 0.9rem;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 30px / 50px;
+}
+/**********************/
+
+@media only screen and (min-width: 1100px){
   .titleB1 {
-    margin: 4vh auto 0 auto;
+    margin: 3vh auto 0 auto;
     width: 75vw;
-    font-size: 1.2rem;
+    font-size: 3;
     font-weight: 700;
     text-align: center;
   }
-  
-  .descriptionB1 {
-    margin: 4vh auto 0 auto;
-    width: 20em;
-    text-align: center;
-    line-height: 3vh;
-  }
-  
-  .spanDescriptionB1 {
-    font-weight: 700;
-    color: #AE731B;
-  }
-  
-  /*
-  .imgSkieur {
-    width: 100px;
-    text-align:center;
-    margin:auto;
-    display:none;
-  } */
-  
-  .mainB1 {
-    padding: 0;
-    margin: 4vh auto;
-    list-style: none;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    font-size: 0.8rem;
-  }
-  
+
   .featureMainB1a, 
   .featureMainB1b, 
   .featureMainB1c {
-    padding: 0;
-    margin: 0;
-    width: 7rem;
-  
-    border-radius: 15%;
-    background-color: rgb(255, 255, 255, 0.7);
-    text-align: center;
+    width: 10rem;
   }
-  
-  .featureMainB1b{
-    margin-left: 2vw;
-    margin-right: 2vw;
-    width: 7rem;
-  
-    border-radius: 15%;
-  }
-  
-  .B1a,
-  .B1b,
-  .B1c {
-    padding: 0;
-    padding-top: 1vh;
-    margin: 0;
-    font-size: 1.6rem;
-    font-weight: 700;
-  }
-  
+
   .B2a,
   .B2b,
-  .B2c{
-    padding: 0;
-    margin: 0;
-    color: #AE731B;  
+  .B2c {
+    font-size: 1em;
   }
-  
-  /********* B3 *********/
+
   .B3a,
   .B3b,
   .B3c {
-    font-size: 0.7rem;
-    font-weight: 700;
-    color: white;
-    background-color: #DBE3E8;
+    font-size: 1.35em;
+    font-weight: 450;
   }
-  
-  .B3a,
-  .B3c {
-    padding: 0.6rem;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    border-radius: 30px / 50px;
-  }
-  
-  .B3b {
-    padding: 0.4rem;
-    padding-bottom: 0.9rem;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    border-radius: 30px / 50px;
-  }
-  /**********************/
-
-  @media only screen and (min-width: 1100px) {
-    .titleB1 {
-      margin: 3vh auto 0 auto;
-      width: 75vw;
-      font-size: 3;
-      font-weight: 700;
-      text-align: center;
-    }
-
-    .featureMainB1a, 
-    .featureMainB1b, 
-    .featureMainB1c {
-      width: 10rem;
-    }
-
-    .B2a,
-    .B2b,
-    .B2c {
-      font-size: 1em;
-    }
-
-    .B3a,
-    .B3b,
-    .B3c {
-      font-size: 1.35em;
-    }
-  }
+}
