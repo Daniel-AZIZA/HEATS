@@ -85,6 +85,15 @@ h3,
     font-size: 0.7rem;
 }
 
+@media only screen and (min-width: 373px) {
+    .h2HeaderMainContainer3 {
+        font-size: 1.2rem;
+    }
+    .iphone_heats {
+        margin-top: 190px;
+    }
+}
+
 @media only screen and (min-width: 429px) {
     .blockContainer3 {
         margin: 0 auto;
