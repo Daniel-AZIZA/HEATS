@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    height: -webkit-fill-available;
 }
 
 *,
@@ -23,6 +24,14 @@ body {
     background-image: url(./image/fond.png);
     background-size: cover;
     background-attachment: scroll;
+}
+
+/* Avoid Chrome to see Safari hack */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    min-height: -webkit-fill-available;
+  }
 }
 
 .main {

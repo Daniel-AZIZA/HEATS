@@ -68,13 +68,12 @@
     list-style: none;
     text-align: center;
     background-color : #DBE3E8;
-/*
+
     background-image: url("../image/fond\ menu.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
-*/
+
     color: white;
     z-index: 2;
   }
