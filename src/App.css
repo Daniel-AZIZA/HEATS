@@ -31,7 +31,6 @@ body {
   body {
     /* The hack for Safari */
     min-height: -webkit-fill-available;
-    overflow: hidden;
   }
 }
 
