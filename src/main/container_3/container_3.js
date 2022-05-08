@@ -12,7 +12,7 @@ function Container3 () {
             <DisplayImage src={iphone} alt="iphone" class="iphone_heats"/>
             <div className="headerContainer3">
                 <h2 className="h2HeaderContainer3">Heats</h2>
-                <h3 className="h3Container3">By montain lovers</h3>
+                <h3 className="h3Container3">By mountain lovers</h3>
             </div>
             <h2 className="h2HeaderMainContainer3">Prêt.e pour l'aventure ?</h2>
             <p className="PMainContainer3">Faites-vous livrer des plats bons et chauds à 2000m d'altitude !<br/>
